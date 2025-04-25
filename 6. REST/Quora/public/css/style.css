@@ -1,0 +1,16 @@
+#title {
+    color: #B92B27;
+}
+
+.post {
+    background-color: bisque;
+    margin: 1rem 0;
+}
+
+.delete-btn {
+    margin-top: 1rem;   
+}
+
+.user {
+    font-style: italic;
+}

@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    text-decoration: underline double red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    text-align: justify;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: normal;
+    font-size: 15px;
+}
+
+h2{
+    text-align: right;
+    text-decoration: overline;
+    font-family: impact;
+}
+
+h3{
+    text-decoration: line-through;
+}
+a{
+    color: black;
+    text-decoration: none;
+}

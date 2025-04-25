@@ -1,0 +1,20 @@
+nav{
+    height: 50px;
+    width: 900px;
+    border: 2px solid #b1dbd7;
+    background-color: #f5c3cb;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+nav div{
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    margin-left: 5px;
+    font-size: 1.5em;
+    line-height: 50px;
+}

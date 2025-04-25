@@ -1,0 +1,19 @@
+<%- include('includes/header.ejs') %>
+  <body>
+    <h1 id="title">Quora Posts</h1>
+    <div class="posts">
+      <%for(let i = 0; i < posts.length; i++) {%>
+      <div class="post">
+        <h3 class="user">@<%=posts[i].username%></h3>
+        <p class="content"><%=posts[i].content%></p>
+        <a id="detail-post" href="/posts/<%=posts[i].id%>">see in detail</a>
+        <a id="edit-btn" href="/posts/<%=posts[i].id%>/edit">Edit Post</a><br />
+        <form action="/posts/<%=posts[i].id%>?_method=DELETE" method="post">
+          <button class="delete-btn">Delete</button>
+        </form>
+      </div>
+      <%}%>
+      <a id="new-post" href="/posts/new">Write new post</a>
+    </div>
+  </body>
+</html>

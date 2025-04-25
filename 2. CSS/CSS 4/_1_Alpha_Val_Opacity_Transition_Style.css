@@ -1,0 +1,31 @@
+#alphaval{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.3);
+
+}
+
+#opacity{
+    height: 200px;
+    width: 200px;
+    background-color: lime;
+    opacity: 0.7;
+}
+
+#transition{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    font-weight: bold;
+    margin: 0px auto;
+    /* margin-top: 10px; */
+    transition: 1s ease-in 0.2s;
+}
+
+#transition:hover{
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-top: 400px;
+}

@@ -1,0 +1,31 @@
+body {
+  padding: 16px;
+  color: azure;
+  background-color: #292827;
+}
+
+img {
+  width: 30%;
+  height: 30%;
+  margin-bottom: 16px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #1b1b1a;
+  margin: -16px;
+  margin-top: 0.25rem;
+  padding-right: 16px;
+}
+
+table {
+  margin: auto;
+  text-align: center;
+}
+
+table a {
+  color: white;
+}
+th, td{
+  padding: 0.5rem;
+}

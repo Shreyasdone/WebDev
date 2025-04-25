@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="assets/logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="sidepanel">
+        <div class="controls">
+          <div class="home">
+            <div class="homeicon"><i class="fa-solid fa-house"></i></div>
+            <div class="hometext"><a href="#">Home</a></div>
+          </div>
+          <div class="search">
+            <div class="searchicon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="searchtext"><a href="#">Search</a></div>
+          </div>
+        </div>
+        <div class="quickaccess">
+          <div class="quickaccessnav">
+            <div class="librarynav">
+              <div class="libraryimg">
+                <img src="assets/library_icon.png" alt="library_icon" />
+              </div>
+              <div class="librarytext"><a href="#">Library</a></div>
+            </div>
+            <div id="other-i" class="othericons">
+              <div class="plusicon"><i class="fa-solid fa-plus"></i></div>
+              <div class="arrowicon">
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="addplaylist">
+            <h4>Create your first playlist</h4>
+            <p>It's easy we'll help you</p>
+            <div class="create-playlist-btn">
+              <button>Create Playlist</button>
+            </div>
+          </div>
+          <div class="findpodcast">
+            <h4>Let's find some Podcast to follow</h4>
+            <p>We'll keep you updated on new episodes</p>
+            <div class="browse-podcast-btn">
+              <button>Browse Podcast</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mainpanel">
+        <div class="navbar">
+          <div class="icons">
+            <div class="leftarrow">
+              <img src="assets/backward_icon.png" alt="backward_arrow" />
+            </div>
+            <div id="rig-arrow" class="rightarrow">
+              <img src="assets/forward_icon.png" alt="forward_arrow" />
+            </div>
+          </div>
+          <div class="buttons">
+            <div id="prem-btn" class="premium-btn"><button>Explore Premium</button></div>
+            <div class="install-app-btn">
+              <button>
+                <i class="fa-solid fa-circle-arrow-down"></i>Install App
+              </button>
+            </div>
+            <div class="usericon"><i class="fa-regular fa-user"></i></div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="top-50-card">
+            <div class="img-n-heading">
+              <img src="assets/card1img.jpeg" alt="top-50-img" />
+              <h3>Top 50 Global</h3>
+            </div>
+            <div class="description">
+              <p>Your daily updates on most played tracks</p>
+            </div>
+          </div>
+        </div>
+        <h2 id="trending-head">Trending now near you</h2>
+        <div class="trending">
+          <div class="trending-card indie-india">
+            <div class="trending-card-header">
+              <img
+                class="trending-card-img"
+                src="assets/card2img.jpeg"
+                alt="indie-india-img"
+              />
+              <h3>Indie India</h3>
+            </div>
+            <div class="desc">
+              <p>Best of the Indian Indie Scene</p>
+            </div>
+          </div>
+          <div class="trending-card indie-india">
+            <div class="trending-card-header">
+              <img
+                class="trending-card-img"
+                src="assets/card3img.jpeg"
+                alt="indie-india-img"
+              />
+              <h3>Indie India</h3>
+            </div>
+            <div class="desc">
+              <p>Best of the Indian Indie Scene</p>
+            </div>
+          </div>
+          <div class="trending-card indie-india">
+            <div class="trending-card-header">
+              <img
+                class="trending-card-img"
+                src="assets/card4img.jpeg"
+                alt="indie-india-img"
+              />
+              <h3>Indie India</h3>
+            </div>
+            <div class="desc">
+              <p>Best of the Indian Indie Scene</p>
+            </div>
+          </div>
+          <div class="trending-card indie-india">
+            <div class="trending-card-header">
+              <img
+                class="trending-card-img"
+                src="assets/card3img.jpeg"
+                alt="indie-india-img"
+              />
+              <h3>Indie India</h3>
+            </div>
+            <div class="desc">
+              <p>Best of the Indian Indie Scene</p>
+            </div>
+          </div>
+          <div class="trending-card indie-india">
+            <div class="trending-card-header">
+              <img
+                class="trending-card-img"
+                src="assets/card4img.jpeg"
+                alt="indie-india-img"
+              />
+              <h3>Indie India</h3>
+            </div>
+            <div class="desc">
+              <p>Best of the Indian Indie Scene</p>
+            </div>
+          </div>
+        </div>
+        <h2 id="trending-head">Featured Charts</h2>
+        <div class="trending">
+          <div class="trending-card indie-india">
+            <div class="trending-card-header">
+              <img
+                class="trending-card-img"
+                src="assets/card5img.jpeg"
+                alt="indie-india-img"
+              />
+              <h3>Indie India</h3>
+            </div>
+            <div class="desc">
+              <p>Best of the Indian Indie Scene</p>
+            </div>
+          </div>
+          <div class="trending-card indie-india">
+            <div class="trending-card-header">
+              <img
+                class="trending-card-img"
+                src="assets/card6img.jpeg"
+                alt="indie-india-img"
+              />
+              <h3>Indie India</h3>
+            </div>
+            <div class="desc">
+              <p>Best of the Indian Indie Scene</p>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <div class="line"></div>
+        </footer>
+      </div>
+      <div class="music-player">
+        <div class="album"></div>
+        <div class="player">
+          <div class="player-controls">
+            <img src="assets/player_icon1.png" class="player-control-icon">
+            <img src="assets/player_icon2.png" class="player-control-icon">
+            <img src="assets/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem; width: 2rem;">
+            <img src="assets/player_icon4.png" class="player-control-icon">
+            <img src="assets/player_icon5.png" class="player-control-icon">
+          </div>
+          <div class="playback-bar">
+            <span class="curr-time">0.00</span>
+            <input type="range" min="0" max="range" step="1" class="progress-bar">
+            <span class="tot-time">3.33</span>
+          </div>
+        </div>
+        <div class="ply-controls">
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

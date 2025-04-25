@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="/readme.md">
+        <div>
+        <label for="first_name"></label>
+        <input type="text" id="first_name" placeholder="First Name" name="fname">
+        <label for="last_name"></label>
+        <input type="text" id="last_name" placeholder="Last Name" name="lname">
+        </div>
+        <div>
+            <label for="gender">Please select gender:</label>
+        <select name="gender" id="gender"> 
+            <!-- <option >Select Your Gender</option> -->
+            <option value="m">Male</option>
+            <option value="f">Female</option>
+            <option value="t">Transgender</option>
+            <option value="o">Other</option>
+        </select>
+        </div>
+        <div>
+            Do you agree to all terms of services?
+            <input type="checkbox" id="tnc" name="tnc">
+            <label for="tnc">Yes, I agree.</label>
+        </div>
+        <button>Register</button>
+    </form>
+</body>
+</html>

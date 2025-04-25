@@ -1,0 +1,8 @@
+.bg-img{
+    height: 600px;
+    width: 800px;
+    margin: 10px auto;
+    background-image: url(_9_bg_Image.jpg);
+    background-size: contain;
+    color:white;
+}
