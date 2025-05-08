@@ -1,3 +1,6 @@
 [submodule "Practice Project/Quora"]
 	path = Practice Project/Quora
 	url = https://github.com/Shreyasdone/Quora.git
+[submodule "Practice Project/To-Do-List"]
+	path = Practice Project/To-Do-List
+	url = https://github.com/Shreyasdone/To_Do_List_App.git
