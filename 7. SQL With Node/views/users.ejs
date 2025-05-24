@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <title>Users</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <a href="/user/new" class="col-1 p-2 btn btn-outline-primary">Add +</a>
+        <!-- <button class="col">Add +</button> -->
+      </div>
+    </div>
+    <div class="d-flex flex-wrap">
+      <% for(user of users) {%>
+      <div class="card m-2" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title"><%= user.username %></h5>
+          <p class="card-text"><%= user.email %></p>
+        </div>
+        <div class="d-flex">
+          <a href="/user/edit/<%= user.id %>" id="edit" class="btn btn-dark m-2">Edit</a>
+          <form method ="post" action="/user/<%= user.id %>?_method=DELETE">
+            <button type="submit" class="btn btn-danger m-2">Delete</button>
+          </form>
+        </div>
+      </div>
+      <% } %>
+    </div>
+  </body>
+</html>

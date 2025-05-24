@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Username</title>
+</head>
+<body>
+    <form method="post" action="/user/<%= user.id %>?_method=PATCH">
+        <p id="id"><%= user.id %></p>
+        <label for="username">Username:</label>
+        <input id="username" name="username" value="<%= user.username %>" type="text">
+        <button>Submit</button>
+    </form>
+</body>
+</html>
